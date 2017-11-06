@@ -17,9 +17,7 @@
   <body>
     <video id="preview"></video><br>
     
-    <form action="" method="post">
         <input type="text" id="address" name="address">    
-    </form>
     
      <script type="text/javascript">
          
@@ -42,12 +40,3 @@
   
   </body>
 </html>
-
-
-<?php
-    if(isset($_POST['address'])){
-        $address = $_POST['address'];
-        
-        echo "$address";
-    }
-?>
